@@ -5,7 +5,7 @@ summing exactly four of the five integers.
 Then print the respective minimum and maximum 
 values as a single line of two space-separated long integers. 
 */
-
+import java.util.*;
 class Result {
     public static void miniMaxSum(List<Integer> arr) {
     // Write your code here
