@@ -8,7 +8,7 @@ class Result {
     public static List<Integer> matchingStrings(List<String> strings, List<String> queries) {
     // Write your code here
         HashMap<String,Integer> entries = new HashMap<>();
-        ArrayList<Integer> result = new ArrayList<Integer>();
+        ArrayList<Integer> result = new ArrayList<>();
         for (int i = 0; i < strings.size(); i++) {
             String key = strings.get(i);
             entries.put(key, entries.getOrDefault(key, 0) + 1);
