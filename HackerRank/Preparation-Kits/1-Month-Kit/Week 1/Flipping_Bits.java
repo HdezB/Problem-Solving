@@ -6,7 +6,7 @@
 class Result {
     public static long flippingBits(long n) {
     // Write your code here
-        return n ^ 0x00000000L;
+        return n ^ 0xFFFFFFFFL;
     }
 
 }
