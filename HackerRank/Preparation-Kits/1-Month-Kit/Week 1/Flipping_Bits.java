@@ -8,5 +8,4 @@ class Result {
     // Write your code here
         return n ^ 0xFFFFFFFFL;
     }
-
 }

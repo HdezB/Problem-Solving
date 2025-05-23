@@ -15,5 +15,4 @@ import java.util.*;
         }
         return Math.abs(ltr_Diagonal - rtl_Diagonal);
     }
-
 }
